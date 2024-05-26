@@ -1,0 +1,674 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good day",
+          "Is anyone there?",
+          "Hi there",
+          "Hello, can you help me?"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I help you with?",
+          "Greetings! How can I support you?",
+          "Hello, how can I help you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "Farewell",
+          "Take care",
+          "I have to go now"
+        ],
+        "responses": [
+          "Goodbye! Take care.",
+          "See you later! Stay safe.",
+          "Bye! Don't hesitate to return if you need more help.",
+          "Farewell! Best of luck."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Thanks a lot",
+          "I appreciate it",
+          "Thank you so much",
+          "Thanks for the help"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help!",
+          "Anytime!",
+          "Glad to assist!"
+        ]
+      },
+      {
+        "tag": "assistance_types",
+        "patterns": [
+          "What types of assistance do you offer?",
+          "How can you help me?",
+          "What support is available?",
+          "Assistance options",
+          "How can you assist me?",
+          "What can you help with?"
+        ],
+        "responses": [
+          "I can assist with the following:\n1. Finding Scholarships\n2. Eligibility Check\n3. Application Process Guidance\n4. Document Preparation Tips\n5. Scholarship Interview Tips\n6. Application Status Updates\n7. Frequently Asked Questions\n8. Contact Information for Further Help\nPlease choose one."
+        ]
+      },
+      {
+        "tag": "find_scholarships",
+        "patterns": [
+          "Find Scholarships",
+          "Show me available scholarships",
+          "What scholarships are available?",
+          "Scholarship search",
+          "Help me find scholarships",
+          "List of scholarships for refugees"
+        ],
+        "responses": [
+          "Here are some scholarships for refugees and asylum seekers:\n1. DAFI Scholarship Program\n2. Windle Trust International\n3. UNHCR Higher Education Scholarships\n4. University of the People Scholarships for Refugees\n5. Refugee Education Trust Scholarships\n6. Erasmus Mundus Joint Master Degrees (EMJMD)\n7. WUSC Student Refugee Program\n8. Mastercard Foundation Scholars Program\n9. Kaldor Centre for International Refugee Law Scholarships\n10. Global Platform for Syrian Students Scholarships\n11. Columbia University Scholarship for Displaced Students\n12. University of Edinburgh Refugee Scholarships\n13. World University Service of Canada (WUSC) Scholarships\n14. The United World Colleges (UWC) Refugee Initiative\n15. European Resettlement Network Scholarships\n16. Japan ICU Foundation Refugee Assistance Scholarships\n17. International Refugee Assistance Project (IRAP) Scholarships\n18. Rosa Luxemburg Foundation Scholarships for Refugees\n19. Al Qasimi Foundation's Refugee Scholarship\n20. Open Society Foundations Refugee Scholar Program\n21. InZone Refugee Education Program\n22. Peace and Conflict Studies Scholarships for Refugees\n23. Institut Francais des Relations Internationales (IFRI) Scholarships\n24. The AFD Fellowship for Refugee Scholars\n25. Global Platform for Syrian Students Emergency Scholarships\n26. Windle Trust Refugee Scholarships for Higher Education\n27. UNHCR Albert Einstein German Academic Refugee Initiative (DAFI)\n28. Government of Ireland International Education Scholarships for Refugees\n29. Refugee Scholarships from the Swiss Government\n30. United Nations University Scholarships for Refugees\n31. Refugee Scholarships at the University of Melbourne\n32. University of London Scholarships for Refugees\n33. Refugee Scholarships at Oxford University\n34. University of Amsterdam Refugee Scholarships\n35. Queen Mary University of London Refugee Scholarship\n36. Refugee Scholarships at Stanford University\n37. Refugee Scholarships at Harvard University\n38. Cambridge University Refugee Scholarship\n39. University of British Columbia Refugee Scholarships\n40. University of Toronto Refugee Scholarships\n41. University of Sydney Refugee Scholarships\n42. Refugee Scholarships at the University of Adelaide\n43. Monash University Refugee Scholarships\n44. Deakin University Refugee Scholarships\n45. Griffith University Refugee Scholarships\n46. Refugee Scholarships at the Australian National University\n47. Victoria University Refugee Scholarships\n48. University of New South Wales Refugee Scholarships\n49. University of Queensland Refugee Scholarships\n50. University of Western Australia Refugee Scholarships\nPlease select one for more details."
+        ]
+      },
+      {
+        "tag": "dafi_scholarship",
+        "patterns": [
+            "DAFI Scholarship Program",
+            "Tell me about DAFI Scholarship",
+            "Details about DAFI Scholarship",
+            "What is DAFI Scholarship?",
+            "How can I apply for DAFI Scholarship?"
+        ],
+        "responses": [
+            "DAFI Scholarship Program: Supports refugees to access higher education in their host countries. Eligibility: Refugees registered with UNHCR, with strong academic records. Application Period: Varies by country. <a href='https://www.unhcr.org/dafi-scholarships.html' target='_blank'>More details</a>"
+        ]
+    },
+      {
+        "tag": "windle_trust_scholarship",
+        "patterns": [
+          "Windle Trust International",
+          "Tell me about Windle Trust Scholarship",
+          "Details about Windle Trust Scholarship",
+          "What is Windle Trust International?",
+          "How can I apply for Windle Trust Scholarship?"
+        ],
+        "responses": [
+          "Windle Trust International Scholarships:\n- Purpose: Provides education and training opportunities for refugees and the displaced\n- Eligibility: Refugees in East Africa, with a focus on those with limited means\n- Application Period: Typically announced annually. <a href='https://www.windle.org.uk/for-scholarship-applicants' target='_blank'>More details</a>"
+
+        ]
+      },
+      {
+        "tag": "unhcr_scholarship",
+        "patterns": [
+          "UNHCR Higher Education Scholarships",
+          "Tell me about UNHCR Scholarships",
+          "Details about UNHCR Scholarships",
+          "What are UNHCR Scholarships?",
+          "How can I apply for UNHCR Scholarships?"
+        ],
+        "responses": [
+          "UNHCR Higher Education Scholarships:\n- Purpose: Provides scholarships for refugees to pursue higher education\n- Eligibility: Refugees registered with UNHCR, meeting academic criteria\n- Application Period: Varies by country and program.<a href='(https://www.unhcr.org/education.html)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "university_people_scholarship",
+        "patterns": [
+          "University of the People Scholarships for Refugees",
+          "Tell me about University of the People Scholarships",
+          "Details about University of the People Scholarships",
+          "What is University of the People?",
+          "How can I apply for University of the People Scholarships?"
+        ],
+        "responses": [
+          "University of the People Scholarships for Refugees:\n- Purpose: Offers tuition-free, accredited degree programs online\n- Eligibility: Open to refugees worldwide, with a focus on those in need\n- Application Period: Rolling admissions throughout the year.<a href='(https://www.uopeople.edu/tuition-free/)' target='_blank'>More details</a>"
+        ]
+      },  
+      {
+        "tag": "erasmus_mundus_scholarship",
+        "patterns": [
+          "Erasmus Mundus Joint Master Degrees (EMJMD)",
+          "Tell me about Erasmus Mundus Scholarships",
+          "Details about Erasmus Mundus Scholarships",
+          "What is Erasmus Mundus?",
+          "How can I apply for Erasmus Mundus Scholarships?"
+        ],
+        "responses": [
+          "Erasmus Mundus Joint Master Degrees (EMJMD):\n- Purpose: Provides scholarships for high-level integrated international study programs\n- Eligibility: Students from all over the world, including refugees and asylum seekers\n- Application Period: Typically from October to January for courses starting the following academic year.<a href='(https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-master-degrees_en)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "wusc_scholarship",
+        "patterns": [
+          "WUSC Student Refugee Program",
+          "Tell me about WUSC Scholarships",
+          "Details about WUSC Scholarships",
+          "What is WUSC?",
+          "How can I apply for WUSC Scholarships?"
+        ],
+        "responses": [
+          "WUSC Student Refugee Program:\n- Purpose: Provides resettlement and educational opportunities for refugees\n- Eligibility: Refugees in countries of asylum, meeting academic and resettlement criteria\n- Application Period: Annually, with specific deadlines.<a href='(https://wusc.ca/srp/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "mastercard_scholarship",
+        "patterns": [
+          "Mastercard Foundation Scholars Program",
+          "Tell me about Mastercard Foundation Scholarships",
+          "Details about Mastercard Foundation Scholarships",
+          "What is Mastercard Foundation Scholars Program?",
+          "How can I apply for Mastercard Foundation Scholarships?"
+        ],
+        "responses": [
+          "Mastercard Foundation Scholars Program:\n- Purpose: Provides comprehensive scholarships for education and leadership development\n- Eligibility: Open to refugees and displaced youth in Africa, meeting academic and leadership criteria\n- Application Period: Varies by institution and program.<a href='(https://mastercardfdn.org/all/scholars/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "kaldor_scholarship",
+        "patterns": [
+          "Kaldor Centre for International Refugee Law Scholarships",
+          "Tell me about Kaldor Centre Scholarships",
+          "Details about Kaldor Centre Scholarships",
+          "What is Kaldor Centre for International Refugee Law?",
+          "How can I apply for Kaldor Centre Scholarships?"
+        ],
+        "responses": [
+          "Kaldor Centre for International Refugee Law Scholarships:\n- Purpose: Supports research and study in international refugee law\n- Eligibility: Students and researchers with a focus on refugee law, including refugees\n- Application Period: Annually, with specific deadlines.<a href='(https://www.kaldorcentre.unsw.edu.au/scholarships)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "global_platform_scholarship",
+        "patterns": [
+          "Global Platform for Syrian Students Scholarships",
+          "Tell me about Global Platform for Syrian Students Scholarships",
+          "Details about Global Platform for Syrian Students Scholarships",
+          "What is Global Platform for Syrian Students?",
+          "How can I apply for Global Platform for Syrian Students Scholarships?"
+        ],
+        "responses": [
+          "Global Platform for Syrian Students Scholarships:\n- Purpose: Provides emergency scholarships for Syrian students affected by the conflict\n- Eligibility: Syrian refugees and internally displaced persons\n- Application Period: Varies, with emergency cycles.<a href='(https://www.globalplatformforsyrianstudents.org/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "columbia_university_scholarship",
+        "patterns": [
+          "Columbia University Scholarship for Displaced Students",
+          "Tell me about Columbia University Scholarships",
+          "Details about Columbia University Scholarships",
+          "What is Columbia University Scholarship for Displaced Students?",
+          "How can I apply for Columbia University Scholarships?"
+        ],
+        "responses": [
+          "Columbia University Scholarship for Displaced Students:\n- Purpose: Provides financial support for displaced students to pursue higher education\n- Eligibility: Displaced students worldwide, meeting academic criteria\n- Application Period: Annually, with specific deadlines.<a href='(https://globalcenters.columbia.edu/content/scholarship-displaced-students)' target='_blank'>More details</a>"
+        ]
+        
+      },
+      {
+        "tag": "edinburgh_university_scholarship",
+        "patterns": [
+          "University of Edinburgh Refugee Scholarships",
+          "Tell me about University of Edinburgh Scholarships",
+          "Details about University of Edinburgh Scholarships",
+          "What is University of Edinburgh Refugee Scholarships?",
+          "How can I apply for University of Edinburgh Scholarships?"
+        ],
+        "responses": [
+          "University of Edinburgh Refugee Scholarships:\n- Purpose: Provides scholarships for refugees and asylum seekers to study at the University of Edinburgh\n- Eligibility: Refugees and asylum seekers meeting academic and financial need criteria\n- Application Period: Annually, with specific deadlines.<a href='(https://www.ed.ac.uk/student-funding/refugee-scholarships)' target='_blank'>More details</a>"
+        ]
+        
+      },
+      {
+        "tag": "wusc_scholarship",
+        "patterns": [
+          "World University Service of Canada (WUSC) Scholarships",
+          "Tell me about WUSC Scholarships",
+          "Details about WUSC Scholarships",
+          "What is World University Service of Canada?",
+          "How can I apply for WUSC Scholarships?"
+        ],
+        "responses": [
+          "World University Service of Canada (WUSC) Scholarships:\n- Purpose: Provides educational opportunities and resettlement for refugee students\n- Eligibility: Refugees in countries of asylum, meeting academic and resettlement criteria\n- Application Period: Annually, with specific deadlines.<a href='(https://wusc.ca/srp/)' target='_blank'>More details</a>"
+        ]
+        
+      },
+      {
+        "tag": "uwc_refugee_initiative",
+        "patterns": [
+          "The United World Colleges (UWC) Refugee Initiative",
+          "Tell me about UWC Refugee Initiative",
+          "Details about UWC Refugee Initiative",
+          "What is UWC Refugee Initiative?",
+          "How can I apply for UWC Refugee Initiative?"
+        ],
+        "responses": [
+          "The United World Colleges (UWC) Refugee Initiative:\n- Purpose: Provides scholarships for refugee students to attend UWC schools and colleges\n- Eligibility: Refugees and displaced youth worldwide, meeting academic criteria\n- Application Period: Annually, with specific deadlines.<a href='(https://www.uwc.org/refugee-initiative)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "european_resettlement_network",
+        "patterns": [
+          "European Resettlement Network Scholarships",
+          "Tell me about European Resettlement Network Scholarships",
+          "Details about European Resettlement Network Scholarships",
+          "What is European Resettlement Network?",
+          "How can I apply for European Resettlement Network Scholarships?"
+        ],
+        "responses": [
+          "European Resettlement Network Scholarships:\n- Purpose: Provides higher education scholarships for refugees resettled in Europe\n- Eligibility: Refugees resettled in Europe, meeting academic criteria\n- Application Period: Varies by program.<a href='(https://www.resettlement.eu/page/scholarships)"
+        ]
+      },
+      {
+        "tag": "japan_icu_foundation_scholarship",
+        "patterns": [
+          "Japan ICU Foundation Refugee Assistance Scholarships",
+          "Tell me about Japan ICU Foundation Scholarships",
+          "Details about Japan ICU Foundation Scholarships",
+          "What is Japan ICU Foundation?",
+          "How can I apply for Japan ICU Foundation Scholarships?"
+        ],
+        "responses": [
+          "Japan ICU Foundation Refugee Assistance Scholarships:\n- Purpose: Provides scholarships for refugees to study at International Christian University (ICU) in Japan\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.jicuf.org/scholarships/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "irap_scholarship",
+        "patterns": [
+          "International Refugee Assistance Project (IRAP) Scholarships",
+          "Tell me about IRAP Scholarships",
+          "Details about IRAP Scholarships",
+          "What is International Refugee Assistance Project?",
+          "How can I apply for IRAP Scholarships?"
+        ],
+        "responses": [
+          "International Refugee Assistance Project (IRAP) Scholarships:\n- Purpose: Provides scholarships for refugees to pursue higher education\n- Eligibility: Refugees meeting academic and financial need criteria\n- Application Period: Varies by program.<a href='(https://refugeerights.org/scholarships/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "rosa_luxemburg_scholarship",
+        "patterns": [
+          "Rosa Luxemburg Foundation Scholarships for Refugees",
+          "Tell me about Rosa Luxemburg Foundation Scholarships",
+          "Details about Rosa Luxemburg Foundation Scholarships",
+          "What is Rosa Luxemburg Foundation?",
+          "How can I apply for Rosa Luxemburg Foundation Scholarships?"
+        ],
+        "responses": [
+          "Rosa Luxemburg Foundation Scholarships for Refugees:\n- Purpose: Supports refugees pursuing higher education in Germany\n- Eligibility: Refugees in Germany, with a focus on those committed to social justice\n- Application Period: Annually, with specific deadlines.<a href='(https://www.rosalux.de/en/foundation/scholarships/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "alqasimi_scholarship",
+        "patterns": [
+          "Al Qasimi Foundation's Refugee Scholarship",
+          "Tell me about Al Qasimi Foundation Scholarships",
+          "Details about Al Qasimi Foundation Scholarships",
+          "What is Al Qasimi Foundation?",
+          "How can I apply for Al Qasimi Foundation Scholarships?"
+        ],
+        "responses": [
+          "Al Qasimi Foundation's Refugee Scholarship:\n- Purpose: Provides scholarships for refugees to pursue higher education in the UAE\n- Eligibility: Refugees in the UAE, with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.alqasimifoundation.com/scholarships)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "open_society_scholarship",
+        "patterns": [
+          "Open Society Foundations Refugee Scholar Program",
+          "Tell me about Open Society Foundations Scholarships",
+          "Details about Open Society Foundations Scholarships",
+          "What is Open Society Foundations?",
+          "How can I apply for Open Society Foundations Scholarships?"
+        ],
+        "responses": [
+          "Open Society Foundations Refugee Scholar Program:\n- Purpose: Supports refugees pursuing higher education and research opportunities\n- Eligibility: Refugees with academic and leadership potential\n- Application Period: Annually, with specific deadlines.<a href='(https://www.opensocietyfoundations.org/grants/refugee-scholar-program)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "inzone_scholarship",
+        "patterns": [
+          "InZone Refugee Education Program",
+          "Tell me about InZone Scholarships",
+          "Details about InZone Scholarships",
+          "What is InZone?",
+          "How can I apply for InZone Scholarships?"
+        ],
+        "responses": [
+          "InZone Refugee Education Program:\n- Purpose: Provides higher education opportunities for refugees through online and blended learning\n- Eligibility: Refugees in camps and urban areas, meeting academic criteria\n- Application Period: Varies by program.<a href='(https://www.unige.ch/inzone/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "peace_conflict_scholarship",
+        "patterns": [
+          "Peace and Conflict Studies Scholarships for Refugees",
+          "Tell me about Peace and Conflict Studies Scholarships",
+          "Details about Peace and Conflict Studies Scholarships",
+          "What is Peace and Conflict Studies?",
+          "How can I apply for Peace and Conflict Studies Scholarships?"
+        ],
+        "responses": [
+          "Peace and Conflict Studies Scholarships for Refugees:\n- Purpose: Provides scholarships for refugees to study peace and conflict resolution\n- Eligibility: Refugees with academic potential and commitment to peacebuilding\n- Application Period: Annually, with specific deadlines.<a href='(https://www.peaceconflictstudies.org/scholarships)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "ifri_scholarship",
+        "patterns": [
+          "Institut Francais des Relations Internationales (IFRI) Scholarships",
+          "Tell me about IFRI Scholarships",
+          "Details about IFRI Scholarships",
+          "What is IFRI?",
+          "How can I apply for IFRI Scholarships?"
+        ],
+        "responses": [
+          "Institut Francais des Relations Internationales (IFRI) Scholarships:\n- Purpose: Provides scholarships for refugees to study international relations\n- Eligibility: Refugees with academic potential and interest in international affairs\n- Application Period: Annually, with specific deadlines.<a href='(https://www.ifri.org/en/scholarships)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "afd_fellowship",
+        "patterns": [
+          "The AFD Fellowship for Refugee Scholars",
+          "Tell me about AFD Fellowship",
+          "Details about AFD Fellowship",
+          "What is AFD Fellowship?",
+          "How can I apply for AFD Fellowship?"
+        ],
+        "responses": [
+          "The AFD Fellowship for Refugee Scholars:\n- Purpose: Provides scholarships for refugees to pursue higher education in development studies\n- Eligibility: Refugees with academic potential and commitment to development\n- Application Period: Annually, with specific deadlines.<a href='(https://www.afd.fr/en/fellowships)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "global_platform_emergency_scholarship",
+        "patterns": [
+          "Global Platform for Syrian Students Emergency Scholarships",
+          "Tell me about Global Platform for Syrian Students Emergency Scholarships",
+          "Details about Global Platform for Syrian Students Emergency Scholarships",
+          "What is Global Platform for Syrian Students Emergency Scholarships?",
+          "How can I apply for Global Platform for Syrian Students Emergency Scholarships?"
+        ],
+        "responses": [
+          "Global Platform for Syrian Students Emergency Scholarships:\n- Purpose: Provides emergency scholarships for Syrian students affected by conflict\n- Eligibility: Syrian refugees and internally displaced persons\n- Application Period: Varies, with emergency cycles.<a href='(https://www.globalplatformforsyrianstudents.org/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "windle_trust_refugee_scholarship",
+        "patterns": [
+          "Windle Trust Refugee Scholarships for Higher Education",
+          "Tell me about Windle Trust Refugee Scholarships",
+          "Details about Windle Trust Refugee Scholarships",
+          "What is Windle Trust Refugee Scholarships?",
+          "How can I apply for Windle Trust Refugee Scholarships?"
+        ],
+        "responses": [
+          "Windle Trust Refugee Scholarships for Higher Education:\n- Purpose: Provides higher education opportunities for refugees and the displaced\n- Eligibility: Refugees in East Africa, with a focus on those with limited means\n- Application Period: Annually, with specific deadlines.<a href='(http://windle.org.uk/scholarships/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "unhcr_dafi_scholarship",
+        "patterns": [
+          "UNHCR Albert Einstein German Academic Refugee Initiative (DAFI)",
+          "Tell me about UNHCR DAFI Scholarship",
+          "Details about UNHCR DAFI Scholarship",
+          "What is UNHCR DAFI Scholarship?",
+          "How can I apply for UNHCR DAFI Scholarship?"
+        ],
+        "responses": [
+          "UNHCR Albert Einstein German Academic Refugee Initiative (DAFI):\n- Purpose: Supports refugees to access higher education in their host countries\n- Eligibility: Refugees registered with UNHCR, with strong academic records\n- Application Period: Varies by country.<a href='(https://www.unhcr.org/dafi-scholarships.html)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "ireland_scholarship",
+        "patterns": [
+          "Government of Ireland International Education Scholarships for Refugees",
+          "Tell me about Ireland Scholarships for Refugees",
+          "Details about Ireland Scholarships for Refugees",
+          "What is Ireland Scholarships for Refugees?",
+          "How can I apply for Ireland Scholarships for Refugees?"
+        ],
+        "responses": [
+          "Government of Ireland International Education Scholarships for Refugees:\n- Purpose: Provides scholarships for refugees to study in Ireland\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.educationinireland.com/en/How-Do-I-Apply-/Tuition-Costs-Scholarships/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "swiss_scholarship",
+        "patterns": [
+          "Refugee Scholarships from the Swiss Government",
+          "Tell me about Swiss Government Refugee Scholarships",
+          "Details about Swiss Government Refugee Scholarships",
+          "What are Swiss Government Refugee Scholarships?",
+          "How can I apply for Swiss Government Refugee Scholarships?"
+        ],
+        "responses": [
+          "Refugee Scholarships from the Swiss Government:\n- Purpose: Provides scholarships for refugees to pursue higher education in Switzerland\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants.html)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "unu_scholarship",
+        "patterns": [
+          "United Nations University Scholarships for Refugees",
+          "Tell me about United Nations University Scholarships",
+          "Details about United Nations University Scholarships",
+          "What is United Nations University?",
+          "How can I apply for United Nations University Scholarships?"
+        ],
+        "responses": [
+          "United Nations University Scholarships for Refugees:\n- Purpose: Provides scholarships for refugees to pursue higher education and research at UNU\n- Eligibility: Refugees with academic potential and interest in UNU's areas of focus\n- Application Period: Annually, with specific deadlines.<a href='(https://unu.edu/admissions#scholarships)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "melbourne_university_scholarship",
+        "patterns": [
+          "Refugee Scholarships at the University of Melbourne",
+          "Tell me about University of Melbourne Refugee Scholarships",
+          "Details about University of Melbourne Refugee Scholarships",
+          "What are University of Melbourne Refugee Scholarships?",
+          "How can I apply for University of Melbourne Refugee Scholarships?"
+        ],
+        "responses": [
+          "Refugee Scholarships at the University of Melbourne:\n- Purpose: Provides scholarships for refugees to pursue higher education at the University of Melbourne\n- Eligibility: Refugees and asylum seekers with academic potential\n- Application Period: Annually, with specific deadlines.<a href='(https://scholarships.unimelb.edu.au/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "london_university_scholarship",
+        "patterns": [
+          "University of London Scholarships for Refugees",
+          "Tell me about University of London Refugee Scholarships",
+          "Details about University of London Refugee Scholarships",
+          "What are University of London Refugee Scholarships?",
+          "How can I apply for University of London Refugee Scholarships?"
+        ],
+        "responses": [
+          "University of London Scholarships for Refugees:\n- Purpose: Provides scholarships for refugees to pursue higher education at the University of London\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://london.ac.uk/scholarships)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "new_school_scholarship",
+        "patterns": [
+          "The New School Refugee Scholarships",
+          "Tell me about The New School Refugee Scholarships",
+          "Details about The New School Refugee Scholarships",
+          "What are The New School Refugee Scholarships?",
+          "How can I apply for The New School Refugee Scholarships?"
+        ],
+        "responses": [
+          "The New School Refugee Scholarships:\n- Purpose: Provides scholarships for refugees to study at The New School in New York\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.newschool.edu/scholarships/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "oxford_university_scholarship",
+        "patterns": [
+          "Refugee Scholarships at the University of Oxford",
+          "Tell me about University of Oxford Refugee Scholarships",
+          "Details about University of Oxford Refugee Scholarships",
+          "What are University of Oxford Refugee Scholarships?",
+          "How can I apply for University of Oxford Refugee Scholarships?"
+        ],
+        "responses": [
+          "Refugee Scholarships at the University of Oxford:\n- Purpose: Provides scholarships for refugees to study at the University of Oxford\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.ox.ac.uk/admissions/graduate/fees-and-funding/oxford-funding)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "harvard_university_scholarship",
+        "patterns": [
+          "Refugee Scholarships at Harvard University",
+          "Tell me about Harvard University Refugee Scholarships",
+          "Details about Harvard University Refugee Scholarships",
+          "What are Harvard University Refugee Scholarships?",
+          "How can I apply for Harvard University Refugee Scholarships?"
+        ],
+        "responses": [
+          "Refugee Scholarships at Harvard University:\n- Purpose: Provides scholarships for refugees to study at Harvard University\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://scholarships.harvard.edu/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "mit_university_scholarship",
+        "patterns": [
+          "Refugee Scholarships at MIT",
+          "Tell me about MIT Refugee Scholarships",
+          "Details about MIT Refugee Scholarships",
+          "What are MIT Refugee Scholarships?",
+          "How can I apply for MIT Refugee Scholarships?"
+        ],
+        "responses": [
+          "Refugee Scholarships at MIT:\n- Purpose: Provides scholarships for refugees to study at MIT\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://mitadmissions.org/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "stanford_university_scholarship",
+        "patterns": [
+          "Refugee Scholarships at Stanford University",
+          "Tell me about Stanford University Refugee Scholarships",
+          "Details about Stanford University Refugee Scholarships",
+          "What are Stanford University Refugee Scholarships?",
+          "How can I apply for Stanford University Refugee Scholarships?"
+        ],
+        "responses": [
+          "Refugee Scholarships at Stanford University:\n- Purpose: Provides scholarships for refugees to study at Stanford University\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://financialaid.stanford.edu/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "princeton_university_scholarship",
+        "patterns": [
+          "Refugee Scholarships at Princeton University",
+          "Tell me about Princeton University Refugee Scholarships",
+          "Details about Princeton University Refugee Scholarships",
+          "What are Princeton University Refugee Scholarships?",
+          "How can I apply for Princeton University Refugee Scholarships?"
+        ],
+        "responses": [
+          "Refugee Scholarships at Princeton University:\n- Purpose: Provides scholarships for refugees to study at Princeton University\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://admission.princeton.edu/)' target='_blank'>More details</a>"
+        ]
+      },
+      {
+        "tag": "yale_university_scholarship",
+          "patterns": [
+            "Refugee Scholarships at Yale University",
+            "Tell me about Yale University Refugee Scholarships",
+            "Details about Yale University Refugee Scholarships",
+            "What are Yale University Refugee Scholarships?",
+            "How can I apply for Yale University Refugee Scholarships?"
+          ],
+          "responses": [
+            "Refugee Scholarships at Yale University:\n- Purpose: Provides scholarships for refugees to study at Yale University\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://finaid.yale.edu/)' target='_blank'>More details</a>"
+          ]
+        },
+        {
+          "tag": "ucl_university_scholarship",
+          "patterns": [
+            "Refugee Scholarships at University College London (UCL)",
+            "Tell me about University College London Refugee Scholarships",
+            "Details about University College London Refugee Scholarships",
+            "What are University College London Refugee Scholarships?",
+            "How can I apply for University College London Refugee Scholarships?"
+          ],
+          "responses": [
+            "Refugee Scholarships at University College London (UCL):\n- Purpose: Provides scholarships for refugees to study at UCL\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.ucl.ac.uk/scholarships)' target='_blank'>More details</a>"
+          ]
+        },
+        {
+          "tag": "cambridge_university_scholarship",
+          "patterns": [
+            "Refugee Scholarships at University of Cambridge",
+            "Tell me about University of Cambridge Refugee Scholarships",
+            "Details about University of Cambridge Refugee Scholarships",
+            "What are University of Cambridge Refugee Scholarships?",
+            "How can I apply for University of Cambridge Refugee Scholarships?"
+          ],
+          "responses": [
+            "Refugee Scholarships at University of Cambridge:\n- Purpose: Provides scholarships for refugees to study at the University of Cambridge\n- Eligibility: Refugees with academic potential and financial need\n- Application Period: Annually, with specific deadlines.<a href='(https://www.cam.ac.uk/study/undergraduate/applying/scholarships)' target='_blank'>More details</a>"
+          ]
+        },
+        {
+          "tag": "refugee_centre_university_of_melbourne",
+          "patterns": [
+            "Refugee Centre at the University of Melbourne",
+            "Tell me about Refugee Centre at University of Melbourne",
+            "Details about Refugee Centre at University of Melbourne",
+            "What is Refugee Centre at University of Melbourne?",
+            "How can I apply for Refugee Centre at University of Melbourne?"
+          ],
+          "responses": [
+            "Refugee Centre at the University of Melbourne:\n- Purpose: Supports refugee students through academic and social programs\n- Eligibility: Refugees and asylum seekers with academic potential\n- Services: Scholarships, counseling, mentoring, and integration support.<a href='(https://scholarships.unimelb.edu.au/)' target='_blank'>More details</a>"
+          ]
+        },
+        {
+          "tag": "refugee_centre_university_of_toronto",
+          "patterns": [
+            "Refugee Centre at the University of Toronto",
+            "Tell me about Refugee Centre at University of Toronto",
+            "Details about Refugee Centre at University of Toronto",
+            "What is Refugee Centre at University of Toronto?",
+            "How can I apply for Refugee Centre at University of Toronto?"
+          ],
+          "responses": [
+            "Refugee Centre at the University of Toronto:\n- Purpose: Provides support and resources for refugee students\n- Eligibility: Refugees and asylum seekers with academic potential\n- Services: Scholarships, academic advising, career counseling, and community integration.<a href='(https://www.utoronto.ca/news/university-toronto-launches-new-refugee-centre)' target='_blank'>More details</a>"
+          ]
+        },
+        {
+          "tag": "refugee_centre_university_of_british_columbia",
+          "patterns": [
+            "Refugee Centre at the University of British Columbia",
+            "Tell me about Refugee Centre at University of British Columbia",
+            "Details about Refugee Centre at University of British Columbia",
+            "What is Refugee Centre at University of British Columbia?",
+            "How can I apply for Refugee Centre at University of British Columbia?"
+          ],
+          "responses": [
+            "Refugee Centre at the University of British Columbia:\n- Purpose: Supports refugee students with academic and social integration\n- Eligibility: Refugees and asylum seekers with academic potential\n- Services: Scholarships, tutoring, mental health support, and community engagement.<a href='(https://students.ubc.ca/about-student-services)' target='_blank'>More details</a>"
+          ]
+        },
+        {
+          "tag": "refugee_centre_university_of_sydney",
+          "patterns": [
+            "Refugee Centre at the University of Sydney",
+            "Tell me about Refugee Centre at University of Sydney",
+            "Details about Refugee Centre at University of Sydney",
+            "What is Refugee Centre at University of Sydney?",
+            "How can I apply for Refugee Centre at University of Sydney?"
+          ],
+          "responses": [
+            "Refugee Centre at the University of Sydney:\n- Purpose: Provides comprehensive support for refugee students\n- Eligibility: Refugees and asylum seekers with academic potential\n- Services: Scholarships, academic advising, mental health services, and social integration.<a href='(https://www.sydney.edu.au/students/academic-support.html)' target='_blank'>More details</a>"
+          ]
+        },
+        {
+          "tag": "refugee_centre_university_of_london",
+          "patterns": [
+            "Refugee Centre at the University of London",
+            "Tell me about Refugee Centre at University of London",
+            "Details about Refugee Centre at University of London",
+            "What is Refugee Centre at University of London?",
+            "How can I apply for Refugee Centre at University of London?"
+          ],
+          "responses": [
+            "Refugee Centre at the University of London:\n- Purpose: Supports refugee students with academic and social services\n- Eligibility: Refugees and asylum seekers with academic potential\n- Services: Scholarships, mentoring, career services, and community engagement.<a href='(https://london.ac.uk/about-us)' target='_blank'>More details</a>"
+          ]
+        }
+    ]
+  }
+  
