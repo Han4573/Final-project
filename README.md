@@ -42,6 +42,7 @@ Deployment
 Heroku: The bot is deployed on Heroku, making it accessible to users around the world.
 
 contributor 
+
 Hanamariam 
 
 hailu
@@ -49,3 +50,7 @@ hailu
 Mahnaz
 
 zainab
+
+License
+
+This project is licensed under the MIT License. 
