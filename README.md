@@ -1,7 +1,7 @@
-                          SCHOLARSHIPS FOR REFUGEES BOT
+                          **SCHOLARSHIPS FOR REFUGEES BOT**
 Welcome to the Scholarships for Refugees Bot project! This repository contains the code for a chatbot designed to assist refugees and immigrants in finding scholarships. As refugees ourselves, we understand the challenges in pursuing educational dreams, such as the lack of information about available scholarships, difficulties in navigating applications, and limited support and guidance. Our chatbot aims to alleviate these challenges by providing comprehensive information and support.
 
-Features
+**Features**
 The Scholarships for Refugees Bot offers the following features:
 
 Available Scholarships: Information about scholarships tailored to refugees and immigrants.
@@ -14,9 +14,8 @@ Document Preparation Tips: Advice on preparing necessary documents for scholarsh
 
 Redirect to Scholarship Websites: Direct links to scholarship application pages.
 
-Technologies Used
-Frontend
-
+**Technologies Used**
+Frontend 
 HTML: Provides the structure of the web pages.
 
 CSS: Used for styling the web pages to create an attractive and user-friendly interface.
@@ -41,7 +40,7 @@ Deployment
 
 Heroku: The bot is deployed on Heroku, making it accessible to users around the world.
 
-contributor 
+**contributor **
 
 Hanamariam 
 
@@ -53,4 +52,5 @@ zainab
 
 License
 
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License.
+
