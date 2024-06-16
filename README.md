@@ -1,4 +1,4 @@
-                          **SCHOLARSHIPS FOR REFUGEES BOT**
+**SCHOLARSHIPS FOR REFUGEES BOT**
 Welcome to the Scholarships for Refugees Bot project! This repository contains the code for a chatbot designed to assist refugees and immigrants in finding scholarships. As refugees ourselves, we understand the challenges in pursuing educational dreams, such as the lack of information about available scholarships, difficulties in navigating applications, and limited support and guidance. Our chatbot aims to alleviate these challenges by providing comprehensive information and support.
 
 **Features**
